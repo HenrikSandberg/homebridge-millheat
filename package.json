@@ -29,12 +29,12 @@
     "release": "HUSKY_SKIP_HOOKS=1 standard-version && git push --follow-tags origin master && npm publish"
   },
   "dependencies": {
-    "millheat-api": "0.0.8"
+    "millheat-api": "0.0.10"
   },
   "author": "Henrik Sandberg",
   "license": "MIT",
   "devDependencies": {
-    "commitizen": "^3.0.0",
+    "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.0.1",
     "husky": "^4.2.5",
     "jest": "^27.3.1",
